@@ -1,0 +1,9 @@
+{
+  "name": "nurtured-medicine-site",
+  "version": "1.0.0",
+  "description": "Static site for Nurtured Medicine Advisory Service",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}
