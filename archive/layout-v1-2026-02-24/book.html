@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book | [[BUSINESS_NAME]]</title>
+    <meta
+      name="description"
+      content="Book education or advisory support, or submit a structured enquiry for your service."
+    />
+    <meta property="og:title" content="Book | [[BUSINESS_NAME]]" />
+    <meta
+      property="og:description"
+      content="Low-friction booking plus structured enquiry for specialist medicines support."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://picsum.photos/seed/mi-og-book/1200/630" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-page="book">
+    <header class="site-header" data-site-header></header>
+
+    <main class="site-shell">
+      <section class="page-hero" aria-labelledby="book-title">
+        <article class="page-hero-card">
+          <p class="eyebrow">Book or enquire</p>
+          <h1 id="book-title">Choose instant booking or submit a structured request.</h1>
+          <p class="lead" data-site-token="RESPONSE_SLA">We respond within 2 business days.</p>
+        </article>
+      </section>
+
+      <section class="section" aria-labelledby="booking-options-title">
+        <h2 id="booking-options-title">Booking options</h2>
+        <div class="book-layout">
+          <article class="card">
+            <h3>Direct booking</h3>
+            <p>
+              Use the external scheduler for the fastest booking pathway for education sessions and advisory
+              consults.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" data-booking-link href="book.html">Open booking portal</a>
+            </div>
+            <p class="form-note">
+              If your booking URL is not yet configured, this button defaults to this page.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Structured enquiry form</h3>
+            <p>
+              For clinic partnerships or complex needs, submit an enquiry and we will scope the most suitable
+              service model.
+            </p>
+            <form class="form-grid" aria-label="Enquiry form">
+              <label>
+                Name
+                <input type="text" name="name" autocomplete="name" placeholder="Dr Alex Smith" />
+              </label>
+              <label>
+                Organization
+                <input type="text" name="organization" autocomplete="organization" placeholder="Regional Women's Clinic" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" autocomplete="email" placeholder="alex@clinic.org" />
+              </label>
+              <label>
+                Service interest
+                <select name="service_interest">
+                  <option value="">Select one</option>
+                  <option value="education">Education and CPD</option>
+                  <option value="advisory">Specialist advisory</option>
+                  <option value="partnership">Clinic partnership</option>
+                </select>
+              </label>
+              <label>
+                Preferred timeframe (optional)
+                <input type="text" name="preferred_timeframe" placeholder="Within 2 weeks" />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" placeholder="Describe your needs and context."></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Submit enquiry</button>
+            </form>
+          </article>
+        </div>
+      </section>
+
+      <section class="section highlight" aria-labelledby="availability-title">
+        <h2 id="availability-title">Availability and service area</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Response expectations</h3>
+            <p data-site-token="RESPONSE_SLA">We respond within 2 business days.</p>
+            <p>
+              Urgent clinical scenarios should follow local emergency escalation pathways.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Contact details</h3>
+            <p><strong>Email:</strong> <a data-site-email href="mailto:[[PRIMARY_EMAIL]]">[[PRIMARY_EMAIL]]</a></p>
+            <p><strong>Service area:</strong> <span data-site-token="SERVICE_AREA">Local service area</span></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-site-footer></footer>
+    <script src="site-config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
