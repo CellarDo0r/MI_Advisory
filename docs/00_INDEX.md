@@ -25,6 +25,7 @@ This is the single entrypoint for business setup tracking.
 - [Cadence Guide](./CADENCE.md)
 
 ## Supporting Docs
+- [Command Cheat Sheet](./COMMAND_CHEATSHEET.md)
 - [Project Handover](./PROJECT_HANDOVER.md)
 - [Repository Structure](./STRUCTURE.md)
 - [Meetings Folder](./meetings/README.md)
